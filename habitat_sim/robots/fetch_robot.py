@@ -26,7 +26,7 @@ class FetchRobot(MobileManipulator):
                 ),
                 "robot_head": RobotCameraParams(
                     # First person camera pos
-                    cam_offset_pos=mn.Vector3(0.16, 0.075, 0.025),
+                    cam_offset_pos=mn.Vector3(0.17, 0.075, 0.0325),
                     cam_look_at_pos=mn.Vector3(0.75, 0.075, 0.0),
                     attached_link_id=-1,
                 ),
